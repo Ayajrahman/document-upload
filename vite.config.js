@@ -1,8 +1,9 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
-// https://vite.dev/config/
+// Replace 'document-upload' with your actual repository name
 export default defineConfig({
-  plugins: [react(), tailwindcss(),],
+  base: "/document-upload/", // 👈 Correct way to set base for GitHub Pages
+  plugins: [react(), tailwindcss()],
 });
