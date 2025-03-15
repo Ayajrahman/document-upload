@@ -116,7 +116,7 @@ function Document() {
       <hr className="border-gray-300 mx-6 mt-5" />
 
       {/* Main Content */}
-      <div className="flex gap-6 mx-6 mt-5 minw-1/3">
+      <div className="flex gap-6 mx-6 mt-5">
         {/* Applicant List */}
         <div className="w-1/3 bg-white p-5 rounded-lg shadow-md">
           {applicants.map((name) => (
